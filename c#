@@ -1,0 +1,53 @@
+namespace ConsoleApp2
+{
+    class livre
+    {
+        static void Main(string[] args)
+        {
+            private int numliv;
+        private string nom;
+        private string writer;
+        private bool state;
+        public livre() { }
+        public void emprunt()
+        {
+
+        }
+        public char availibility()
+        {
+            return state;
+        }
+        public void torestore()
+        {
+
+        }
+
+
+    }
+    class client
+    {
+        static void Main(string[] args)
+        {
+            private int numcl;
+        private string name;
+        private date dateemprunt;
+
+        
+        public client() { }
+        public void emprunteur()
+        {
+
+        }
+        public date toreturnbook(){
+            return date;
+    }
+}
+    class sanction
+    {
+        static void Main(string[] args)
+        {
+            private int numsanctiionne;
+        private string livrenonrecuperé;
+
+    }
+}
